@@ -4,4 +4,5 @@ data class Pokemon(
   val id: Long,
   val primaryType: Type,
   val secondaryType: Type? = null,
+  val gen: Generation,
 )
