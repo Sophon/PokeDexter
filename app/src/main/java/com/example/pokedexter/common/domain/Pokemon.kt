@@ -7,4 +7,13 @@ data class Pokemon(
   val secondaryType: Type? = null,
   val ability: Ability,
   val gen: Generation,
-)
+  val stats: Stats,
+) {
+  data class Stats(
+    val attack: Int,
+    val specialAttack: Int,
+    val defense: Int,
+    val specialDefense: Int,
+    val speed: Int,
+  )
+}
