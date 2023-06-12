@@ -1,4 +1,7 @@
-package com.example.pokedexter.common.domain
+package com.example.pokedexter.common.domain.move
+
+import com.example.pokedexter.common.domain.pokemon_detail.Generation
+import com.example.pokedexter.common.domain.pokemon_detail.Type
 
 data class Move(
   val id: Long,

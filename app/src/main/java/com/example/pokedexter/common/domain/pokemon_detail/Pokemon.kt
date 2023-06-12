@@ -1,4 +1,6 @@
-package com.example.pokedexter.common.domain
+package com.example.pokedexter.common.domain.pokemon_detail
+
+import com.example.pokedexter.common.domain.ability.Ability
 
 data class Pokemon(
   val id: Long,
@@ -7,6 +9,7 @@ data class Pokemon(
   val secondaryType: Type? = null,
   val ability: Ability,
   val stats: Stats,
+  val form: Form,
 
   val gender: Gender,
   val gen: Generation,
