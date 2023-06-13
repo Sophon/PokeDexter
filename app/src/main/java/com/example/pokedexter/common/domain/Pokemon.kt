@@ -1,6 +1,7 @@
-package com.example.pokedexter.common.domain.pokemon_detail
+package com.example.pokedexter.common.domain
 
-import com.example.pokedexter.common.domain.ability.Ability
+import com.example.pokedexter.common.domain.pokemon_detail.Form
+import com.example.pokedexter.common.domain.pokemon_detail.Generation
 
 data class Pokemon(
   val id: Long,

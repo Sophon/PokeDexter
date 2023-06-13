@@ -1,4 +1,4 @@
-package com.example.pokedexter.common.domain.ability
+package com.example.pokedexter.common.domain
 
 import com.example.pokedexter.common.domain.pokemon_detail.Generation
 
