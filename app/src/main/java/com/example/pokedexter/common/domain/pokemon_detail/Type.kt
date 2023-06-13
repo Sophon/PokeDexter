@@ -1,4 +1,4 @@
-package com.example.pokedexter.common.domain
+package com.example.pokedexter.common.domain.pokemon_detail
 
 data class Type(
   val effectiveVs: List<Type>,
